@@ -17,5 +17,4 @@ int main()
 	scanf("%d",&a);
 	b=fact(a);
 	printf("Factorial of %d is %d",a,b);
-
 }
