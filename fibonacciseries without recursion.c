@@ -1,14 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int a,f=1,i;
-	
-	printf("Enter a positive number:");
+	int a,d,i;
+	int b=0,c=1;
+	printf("Enter number of elements :");
 	scanf("%d",&a);
-	for(i=1;i<=a;i++)
+	printf("Fibonacci series :\n");
+	printf("%d\n%d\n",b,c);
+	for (i=2;i<a;i++)
 	{
-		f*=i;
+		d=b+c;
+		printf("%d\n",d);
+		b=c;
+		c=d;
 	}
-	printf("factorial of %d is %d",a,f);
-
+	
 }
